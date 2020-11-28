@@ -27,4 +27,5 @@ echo "${shasums[0]}"
 echo "${shasums[1]}"
 echo "${shasums[2]}"
 sed -e "s/SHA1/${shasums[0]}/g" -e "s/SHA2/${shasums[1]}/g" -e "s/SHA3/${shasums[2]}/g" -e "s/VERSION/${pkgver}/g" < PKGBUILD.template > PKGBUILD
+makepkg --printsrcinfo > .SRCINFO
 rm -rf tmp
