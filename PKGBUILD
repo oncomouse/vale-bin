@@ -1,7 +1,7 @@
 # Maintainer: Andrew Pilsch < oncomouse AT gmail DOT com >
 pkgname=vale-bin
 _pkgname=vale
-pkgver=2.6.6
+pkgver=2.6.7
 pkgrel=1
 pkgdesc="A customizable, syntax-aware linter for prose"
 provides=('vale')
@@ -13,9 +13,9 @@ source=("${_pkgname}-${pkgver}-bin.tar.gz::${url}/releases/download/v${pkgver}/$
         "${_pkgname}-${pkgver}_LICENSE::https://raw.githubusercontent.com/errata-ai/vale/v${pkgver}/LICENSE"
         "${_pkgname}-${pkgver}_README.md::https://raw.githubusercontent.com/errata-ai/vale/v${pkgver}/README.md")
 
-sha256sums=('bbea2f6b7a8e5a6db66a1135769ca5c60e331b532ae098105a9bffdb702b5177'
+sha256sums=('c7402b54c26a050d828f01b90fa66d7e3e66de2a3ae34ea5277f021c2fed1988'
             'fd994e305c72265851786dba088f3b76c05d2a8b62d6359257c0bd7d0defaa69'
-            '6f145c7227c18d3e13d64d032548801f3e3fbaee9c9572a9b259f645a4dd27a1')
+            '60efda96c8ed08832127ae4d2e474f44781bc8735db09ebb0ddad9da4d55b5dd')
 
 package() {
     install -Dm755 "${srcdir}/${_pkgname}" "${pkgdir}/usr/bin/${_pkgname}"
