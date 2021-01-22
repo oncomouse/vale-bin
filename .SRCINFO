@@ -1,16 +1,16 @@
 pkgbase = vale-bin
 	pkgdesc = A customizable, syntax-aware linter for prose
-	pkgver = 2.8.1
+	pkgver = 2.8.2
 	pkgrel = 1
 	url = https://github.com/errata-ai/vale
 	arch = x86_64
 	license = MIT
 	provides = vale
 	conflicts = vale
-	source = vale-2.8.1-bin.tar.gz::https://github.com/errata-ai/vale/releases/download/v2.8.1/vale_2.8.1_Linux_64-bit.tar.gz
-	source = vale-2.8.1_LICENSE::https://raw.githubusercontent.com/errata-ai/vale/v2.8.1/LICENSE
-	source = vale-2.8.1_README.md::https://raw.githubusercontent.com/errata-ai/vale/v2.8.1/README.md
-	sha256sums = 7012af709383d4ad34aa7bc6c35c31f6be0a89cbda87ccb6c96c8d56d02e3565
+	source = vale-2.8.2-bin.tar.gz::https://github.com/errata-ai/vale/releases/download/v2.8.2/vale_2.8.2_Linux_64-bit.tar.gz
+	source = vale-2.8.2_LICENSE::https://raw.githubusercontent.com/errata-ai/vale/v2.8.2/LICENSE
+	source = vale-2.8.2_README.md::https://raw.githubusercontent.com/errata-ai/vale/v2.8.2/README.md
+	sha256sums = b09861aef0e64ac381923dd9d59350691d7d5f63ecc9777945d303e22761ce7b
 	sha256sums = fd994e305c72265851786dba088f3b76c05d2a8b62d6359257c0bd7d0defaa69
 	sha256sums = e4c8647bdfdcb20c1d39df4101efcc90d145e84b735bac64929a6d85494852a7
 
