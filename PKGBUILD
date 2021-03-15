@@ -1,7 +1,7 @@
 # Maintainer: Andrew Pilsch < oncomouse AT gmail DOT com >
 pkgname=vale-bin
 _pkgname=vale
-pkgver=2.10.0
+pkgver=2.10.1
 pkgrel=1
 pkgdesc="A customizable, syntax-aware linter for prose"
 provides=('vale')
