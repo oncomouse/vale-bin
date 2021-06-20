@@ -1,7 +1,7 @@
 # Maintainer: Andrew Pilsch < oncomouse AT gmail DOT com >
 pkgname=vale-bin
 _pkgname=vale
-pkgver=2.10.3
+pkgver=2.10.4
 pkgrel=1
 pkgdesc="A customizable, syntax-aware linter for prose"
 provides=('vale')
@@ -13,8 +13,8 @@ source=("${_pkgname}-${pkgver}-bin.tar.gz::${url}/releases/download/v${pkgver}/$
         "${_pkgname}-${pkgver}_LICENSE::https://raw.githubusercontent.com/errata-ai/vale/v${pkgver}/LICENSE"
         "${_pkgname}-${pkgver}_README.md::https://raw.githubusercontent.com/errata-ai/vale/v${pkgver}/README.md")
 
-sha256sums=(6b487645491f01333c5501bfd26709b01fe2916921a9df7b8d71cfc71e9075a5
-fd994e305c72265851786dba088f3b76c05d2a8b62d6359257c0bd7d0defaa69
+sha256sums=(c0188710f7e9898a8504aac47d07e3e69c454dbcac2df29b48d0ac32c53eb0aa
+631d478b9cbc45c5bfa3a52b66b9ea9cfbaac17482d54182326cf15941788e4a
 61c1df7724b98554d3bdd196d52c793c432e90aae4022f0f3ceebec1ff111c72)
 
 package() {
